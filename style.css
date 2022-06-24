@@ -1,0 +1,167 @@
+body {
+    font-family: garamond;
+}
+
+div.scrollmenu {
+    background-color: rgb(135, 135, 135);
+    overflow: auto;
+    white-space: nowrap;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    transition: top 1s;
+    top: 0;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 1.0333333%;
+    text-decoration: none;
+    border-right: 1px solid whitesmoke;
+}
+
+div.scrollmenu a:last-child {
+    border-right: none;
+}
+
+div.scrollmenu a:active {
+background-color: #04AA6D;
+}
+
+div.scrollmenu a:hover {
+    background-color: #111;
+    text-decoration: underline;
+}
+
+
+.big-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    font-family: monospace;
+    height: 100%;
+}
+
+.scrollboxcontainer {
+    display: flex;
+    overflow: auto;
+    outline: 1px dashed lightgray;
+    flex: none;
+    flex-flow: row nowrap;
+    scroll-snap-type: x mandatory;
+    width: 50%;
+    height: 250px;
+    scroll-padding-left: 2em;
+
+}
+
+.scrollbox1 {
+    background-color: #87CCEA;
+    font-size: 200%;
+    scroll-snap-align: center;
+    flex: none;
+    text-align: center;
+    width: 100%;
+}
+
+.scrollbox3 {
+    background-color: #87CCEA;
+    font-size: 200%;
+    scroll-snap-align: center;
+    flex: none;
+    text-align: center;
+    width: 100%;
+}
+
+.scrollbox2 {
+    background-color: #37e8a1;
+    font-size: 200%;
+    scroll-snap-align: center;
+    flex: none;
+    text-align: center;
+    width: 100%;
+}
+
+.scrollbox4 {
+    background-color: #37e8a1;
+    font-size: 200%;
+    scroll-snap-align: center;
+    flex: none;
+    text-align: center;
+    width: 100%;
+}
+
+.socials {
+    font-size: 300%;
+}
+
+.socials:hover {
+    font-size: 400%;
+}
+
+.socials:visited {
+    color: rgb(161, 161, 161);
+}
+
+
+footer {
+    background-color: rgb(135, 135, 135);
+    color: whitesmoke;
+    padding: 0.25%;
+    margin: auto;
+    text-align: right;
+    font-size: 35%;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  input[type=tel], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .phonenumberbox {
+      page-break-after: always;
+
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contactformcontainer {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
