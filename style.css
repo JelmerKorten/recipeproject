@@ -194,3 +194,15 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
+
+  /* quinoa cake hero image */
+  .quinoa-cake-image {
+    background-image: url("src/images/Butterfly\ in\ dagga.jpg");
+    background-color: #cccccc;
+    width: 50%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
