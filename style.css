@@ -57,7 +57,7 @@ div.scrollmenu a:hover {
 }
 
 .scrollbox1 {
-    background-image: url("src/images/Food.jpg");
+    background-image: url("/src/images/Food.jpg");
     background-color: #cccccc;
     font-size: 200%;
     scroll-snap-align: center;
@@ -74,7 +74,7 @@ div.scrollmenu a:hover {
     flex: none;
     text-align: center;
     width: 100%;
-    background-image: url("src/images/Food.jpg");
+    background-image: url("/src/images/Food.jpg");
     background-size: cover;
 }
 
@@ -103,7 +103,7 @@ div.scrollmenu a:hover {
 }
 
 .hero-image {
-    background-image: url("src/images/Food.jpg");
+    background-image: url("/src/images/Food.jpg");
     background-color: #cccccc;
     width: 50%;
     height: 400px;
@@ -197,7 +197,7 @@ input[type=text], select, textarea {
 
   /* quinoa cake hero image */
   .quinoa-cake-image {
-    background-image: url("src/images/Butterfly\ in\ dagga.jpg");
+    background-image: url("/src/images/Butterfly\ in\ dagga.jpg");
     background-color: #cccccc;
     width: 50%;
     height: 400px;
@@ -208,7 +208,7 @@ input[type=text], select, textarea {
 }
 
   .summer-pasta-salad-image {
-    background-image: url("src/images/Butterfly\ in\ dagga.jpg");
+    background-image: url("/src/images/Butterfly\ in\ dagga.jpg");
     background-color: #cccccc;
     width: 50%;
     height: 400px;
@@ -219,7 +219,7 @@ input[type=text], select, textarea {
     }
 
     .quinoa-chocolate-bars-image {
-        background-image: url("src/images/Butterfly\ in\ dagga.jpg");
+        background-image: url("/src/images/Butterfly\ in\ dagga.jpg");
         background-color: #cccccc;
         width: 50%;
         height: 400px;
