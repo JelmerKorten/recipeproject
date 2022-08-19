@@ -340,8 +340,8 @@ input[type=text], select, textarea {
         .insta:hover,
         .email:hover,
         .whatsapp:hover,
-        .icon:hover a {
+        .icon:hover a,
+        .icon:hover {
             font-size: 150%;
             color: #ffffff !important;
         }
-
