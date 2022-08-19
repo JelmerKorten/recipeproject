@@ -144,6 +144,9 @@ footer {
     font-size: 35%;
 }
 
+.title {
+    text-align:  center;
+}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -231,7 +234,7 @@ input[type=text], select, textarea {
 
 
 
-        * {
+        .wrapperwrapper {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -268,7 +271,7 @@ input[type=text], select, textarea {
             margin: 10px;
             width: 50px;
             height: 50px;
-            font-size: 10px;
+            font-size: 21px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -281,7 +284,7 @@ input[type=text], select, textarea {
         .wrapper .tooltip {
             position: absolute;
             top: 0;
-            font-size: 14px;
+            font-size: 16px;
             background: #ffffff;
             color: #ffffff;
             padding: 5px 8px;
